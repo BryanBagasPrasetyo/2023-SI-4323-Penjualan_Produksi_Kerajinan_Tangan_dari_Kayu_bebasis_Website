@@ -1,0 +1,34 @@
+.cartArea {
+    font-family:"verdana";
+    font-size:14px;
+    color:dodgerBlue;
+    padding-top: 100px;
+    text-align: center;
+    padding-bottom:40px;
+}
+.cartTable {
+    border-collapse: collapse;
+    border: 1px solid;
+    width: 50%;
+    margin:10px;
+    margin: auto;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+.cartTable th {
+    height: 40px;
+}
+.cartTable th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+.cartTable tr:nth-child(even) {background-color: #f2f2f2;color:black;}
+.btnCart {
+    width:200px;
+    padding:10px;
+    background-color:DodgerBlue;
+    color:white;
+    border-radius:8px;
+    text-decoration:none;
+}

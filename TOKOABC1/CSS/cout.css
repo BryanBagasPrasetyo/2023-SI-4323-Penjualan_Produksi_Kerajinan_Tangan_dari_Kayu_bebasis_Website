@@ -1,0 +1,37 @@
+input[type=text],input[type=email] {
+    width: 100%;
+    padding: 4px 4px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+.cout {
+    width :20rem;
+}
+input[type=submit], input[type=reset] {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 12px 40px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius:8px;
+    width: 100%;
+}
+#cout {
+    text-align: center;
+    margin-top: 20px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #2196F3;
+    padding-top: 100px;
+}
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 12px;
+    text-align: center;
+}

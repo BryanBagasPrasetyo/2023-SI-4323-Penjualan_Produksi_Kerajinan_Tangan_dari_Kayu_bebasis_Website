@@ -1,0 +1,107 @@
+body {
+    font-family: "Quicksand",sans-serif;
+    margin: 0;
+}
+ul {
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+header {
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 15px 60px;
+    position:absolute;
+    width: 100%;
+    box-sizing: border-box;
+}
+header a{
+    color:rgb(183,230,235);
+    font-size: 18px;
+    font-weight: bold;
+    padding:10px;
+    text-shadow: 1px 1px 2px rgb(0,0,0);
+    border-radius:6px;
+}
+header nav a:hover {
+    background-color:rgb(183,230,235);
+    color: rgb(59, 59, 59);
+}
+#page-logo a {
+    padding : 10px;
+    font-family : "Audiowide",sans-serif;
+    color:rgb(183,230,235);
+    font-size : 50px;
+    text-decoration : none;
+    text-transform : uppercase;
+    text-shadow: 1px 1px 2px rgb(0,0,0);
+}
+header ul {
+    display:flex;
+}
+header li {
+    margin-left:20px;
+}
+#container {
+    background-color:rgb(82,23,81);
+    padding:10px;
+    /*width:600px;*/
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+ul a {
+    text-decoration : none; }
+footer{
+    background: linear-gradient(70deg,
+    rgb(24,24,24),rgb(25,29,29));
+    padding:40px;
+}
+footer ul{
+    display: flex;
+    justify-content:center;
+    /*padding:40px;*/
+}
+footer li{
+    width: 80px;
+    height:80px;
+    margin:50px 50px ;
+}
+footer img{
+    width:100%;
+    height:100%;
+}
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+#container-box {
+    display:flex;
+    width:90%;
+    margin:auto;
+    margin-bottom:40px;
+    justify-content: center;
+}
+.container-item {
+    margin: 20px;
+    text-transform:uppercase;
+}
+.container-item img {
+    height: 200px;
+    width:100%;
+    box-shadow: 2px 4x 8px rgb(68,67,67);
+    border-radius:10px;
+    object-fit: cover;
+}
+.container-item p{
+    text-align:center;
+    font-size:24px;
+    color:rgb(124,123,123);
+}
+.container-item strong{
+    color:rgb(0,160,117);
+}
+   
